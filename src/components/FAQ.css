@@ -1,0 +1,21 @@
+/* Container for FAQ page */
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Text Styling */
+  h3 {
+    color: #000000; /* Black text */
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #000000; /* Black text */
+    font-size: 16px;
+  }
+  

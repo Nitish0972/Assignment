@@ -1,0 +1,101 @@
+/* Phone Shape */
+.phone-shape {
+    width: 375px;
+    height: 667px;
+    border: 1px solid #d0d0d0; /* Light gray border */
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Simulated Status Bar */
+  .status-bar {
+    width: 100%;
+    text-align: center;
+    color: #000000; /* Black text */
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #00bfae; /* Green border */
+    padding-bottom: 10px;
+  }
+  
+  /* Phone Content Area */
+  .phone-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #000000; /* Black text */
+    padding: 20px;
+    background-color: #ffffff; /* White content background */
+  }
+  
+  /* Typography for Titles and Headings */
+  h3 {
+    color: #000000; /* Black text */
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  /* General text */
+  p {
+    color: #000000; /* Black text */
+    font-size: 16px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button.primary {
+    background-color: #00bfae; /* Green */
+    color: white;
+  }
+  
+  button.primary:hover {
+    background-color: #009688; /* Darker green on hover */
+  }
+  
+  button.secondary {
+    background-color: #ffffff; /* White */
+    color: #00bfae; /* Green text */
+    border: 1px solid #00bfae; /* Green border */
+  }
+  
+  button.secondary:hover {
+    background-color: #f0f0f0; /* Slightly darker white on hover */
+  }
+  
+  /* Box Styles for Home Screen */
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #000000; /* Black text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 15px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .box:hover {
+    background-color: #e0e0e0; /* Slight hover effect */
+  }
+  

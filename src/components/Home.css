@@ -1,0 +1,57 @@
+/* Container for home page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Button Styles */
+button.primary {
+  background-color: #00bfae; /* Green */
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button.primary:hover {
+  background-color: #009688; /* Darker green on hover */
+}
+
+/* Translate Section */
+.translate-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0; /* Light gray border */
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.language-options {
+  margin-bottom: 10px;
+}
+
+.language-options label {
+  display: block;
+  color: #000000; /* Black text */
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.translation-result {
+  color: #00bfae; /* Green for translated text */
+  font-size: 18px;
+  margin-top: 10px;
+}

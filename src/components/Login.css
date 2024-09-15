@@ -1,0 +1,62 @@
+/* Container for login form */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Form input styles */
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  color: #000000; /* Black text */
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0; /* Light gray border */
+  font-size: 16px;
+}
+
+.error-message {
+  color: #ff0000; /* Red for error messages */
+  margin-bottom: 10px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button.primary {
+  background-color: #00bfae; /* Green */
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #009688; /* Darker green on hover */
+}
+
+button.secondary {
+  background-color: #ffffff; /* White */
+  color: #00bfae; /* Green text */
+  border: 1px solid #00bfae; /* Green border */
+}
+
+button.secondary:hover {
+  background-color: #f0f0f0; /* Slightly darker white on hover */
+}
